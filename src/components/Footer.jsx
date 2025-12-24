@@ -2,6 +2,7 @@ import React from "react";
 import { FaTiktok, FaFacebookF } from "react-icons/fa";
 import { Twitter, Instagram } from "lucide-react";
 import projects from "../services/projects";
+import { FaWhatsapp } from "react-icons/fa6";
 
 const Footer = () => {
   // Get the last two projects (latest)
@@ -22,16 +23,16 @@ const Footer = () => {
             Crafting clean and modern web experiences with passion. Always learning and building.
           </p>
           <div className="flex gap-4 mt-6 justify-center md:justify-start">
-            <a href="https://tiktok.com/@muzamilcreates" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full skill-tag-hover transition-all duration-300 hover:shadow-lg hover:-translate-y-1 hover:text-purple-500">
+            <a href="https://www.tiktok.com/@ar.zainab.usama?_t=ZN-90xTGA0cLZu&_r=1" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full skill-tag-hover transition-all duration-300 hover:shadow-lg hover:-translate-y-1 hover:text-purple-500">
               <FaTiktok className="w-6 h-6" />
             </a>
-            <a href="https://twitter.com/muzamilhussain" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full skill-tag-hover transition-all duration-300 hover:shadow-lg hover:-translate-y-1 hover:text-purple-500">
-              <Twitter className="w-6 h-6" />
+            <a href="https://wa.me/923046475042" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full skill-tag-hover transition-all duration-300 hover:shadow-lg hover:-translate-y-1 hover:text-purple-500">
+              <FaWhatsapp className="w-6 h-6" />
             </a>
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full skill-tag-hover transition-all duration-300 hover:shadow-lg hover:-translate-y-1 hover:text-purple-500">
+            <a href="https://www.facebook.com/share/1APbHMPU49/" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full skill-tag-hover transition-all duration-300 hover:shadow-lg hover:-translate-y-1 hover:text-purple-500">
               <FaFacebookF className="w-6 h-6" />
             </a>
-            <a href="https://www.instagram.com/muzamilcreates?igsh=bWc4eWltc3E5aXpi" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full skill-tag-hover transition-all duration-300 hover:shadow-lg hover:-translate-y-1 hover:text-purple-500">
+            <a href="https://www.instagram.com/ar.zainabusama?igsh=MW11bzA1cHR1cXFtMQ==" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full skill-tag-hover transition-all duration-300 hover:shadow-lg hover:-translate-y-1 hover:text-purple-500">
               <Instagram className="w-6 h-6" />
             </a>
           </div>
