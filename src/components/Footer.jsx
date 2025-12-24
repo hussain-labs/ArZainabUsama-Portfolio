@@ -47,7 +47,7 @@ const Footer = () => {
           {/* --- Change #1: Added hover-text-gradient to menu links --- */}
           <a href="#projects" className="mb-2 text-gray-300 hover:underline transition-transform hover:-translate-y-1 hover-text-gradient">Projects</a>
           <a href="#experience" className="mb-2 text-gray-300 hover:underline transition-transform hover:-translate-y-1 hover-text-gradient">Experience</a>
-          <a href="#education" className="mb-2 text-gray-300 hover:underline transition-transform hover:-translate-y-1 hover-text-gradient">Education</a>
+
           <a href="#contact" className="mb-2 text-gray-300 hover:underline transition-transform hover:-translate-y-1 hover-text-gradient">Contact</a>
         </div>
 

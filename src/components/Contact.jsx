@@ -34,13 +34,13 @@ const Contact = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-3 text-gray-700">
               <Mail className="w-6 h-6 text-blue-500" />
-              <a href="mailto:muzamilhussain369@gmail.com" className="text-gradient-static hover:underline">
-                muzamilhussain369@gmail.com
+              <a href="abdurrehman123765@gmail.com" className="text-gradient-static hover:underline">
+                abdurrehman123765@gmail.com
               </a>
             </div>
             <div className="flex items-center space-x-3 text-gray-700">
               <Phone className="w-6 h-6 text-blue-500" />
-              <span className="text-gradient-static">0303-0458064</span>
+              <span className="text-gradient-static">0304-6475042</span>
             </div>
           </div>
 

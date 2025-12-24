@@ -70,23 +70,23 @@ const Navbar = () => {
           <li className="opacity-0 menu-item-animate text-gradient-static" style={{ animationDelay: '400ms' }}>
             <a href="#experience" className="hover:text-blue-600" onClick={() => setIsOpen(false)}>Experience</a>
           </li>
-          <li className="opacity-0 menu-item-animate text-gradient-static" style={{ animationDelay: '500ms' }}>
+          {/* <li className="opacity-0 menu-item-animate text-gradient-static" style={{ animationDelay: '500ms' }}>
             <a href="#education" className="hover:text-blue-600" onClick={() => setIsOpen(false)}>Education</a>
-          </li>
+          </li> */}
           <li className="opacity-0 menu-item-animate text-gradient-static" style={{ animationDelay: '600ms' }}>
             <a href="#contact" className="hover:text-blue-600" onClick={() => setIsOpen(false)}>Contact</a>
           </li>
-          <li className="w-full flex mx-auto opacity-0 menu-item-animate" style={{ animationDelay: '700ms' }}>
+          {/* <li className="w-full flex mx-auto opacity-0 menu-item-animate" style={{ animationDelay: '700ms' }}> */}
             {/* Mobile Download Button with Gradient */}
-            <a
+            {/* <a
               href="/cv/Muzamil_Hussain.pdf"
               download="Muzamil Hussain.pdf"
               onClick={() => setIsOpen(false)}
               className="w-full px-6 text-center text-white py-3 rounded-lg shadow transition button-gradient-animated hover:scale-105"
             >
               Download Resume
-            </a>
-          </li>
+            </a> */}
+          {/* </li> */}
         </ul>
       </div>
     </nav>

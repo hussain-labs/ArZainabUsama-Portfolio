@@ -73,7 +73,7 @@ const Projects = () => {
                   {project.name}
                 </span>
                 <p className="text-gray-600 mb-2">{project.desc}</p>
-                <p className="text-sm text-gray-500 mb-1">Role: {project.role}</p>
+                {/* <p className="text-sm text-gray-500 mb-1">Role: {project.role}</p> */}
                 <p className="text-sm text-gray-500 mb-3">
                   <span className="font-semibold">Duration:</span> {project.date}
                 </p>
